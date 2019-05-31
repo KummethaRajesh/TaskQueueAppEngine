@@ -1,0 +1,9 @@
+account.email=rajesh.kummetha@anywhere.co
+eclipse.preferences.version=1
+include.optional.configuration.files=true
+project.allowObsoleteRuntime=false
+project.bucket=
+project.id=task-queue-app
+project.previousVersion.stop=true
+project.promote=true
+project.version=pre-alpha-1

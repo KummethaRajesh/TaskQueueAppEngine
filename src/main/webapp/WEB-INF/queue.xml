@@ -1,0 +1,20 @@
+<queue-entries>
+  
+  <queue>
+    <name>store-push-queue</name>
+    <rate>1/s</rate>
+    <retry-parameters>
+      <task-retry-limit>7</task-retry-limit>
+      <task-age-limit>10m</task-age-limit>
+    </retry-parameters>
+  </queue>
+  
+  <queue>
+    <name>pull-queue</name>
+    <mode>pull</mode>
+    <retry-parameters>
+      <task-retry-limit>2</task-retry-limit>
+    </retry-parameters>
+  </queue>
+  
+</queue-entries>

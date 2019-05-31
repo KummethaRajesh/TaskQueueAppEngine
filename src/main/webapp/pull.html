@@ -1,0 +1,24 @@
+
+<html>
+
+<body>
+
+<form action="/pullServletWorker" method="post">
+    <div>
+        <textarea name="payload" placeholder="Enter a task payload" rows="3" cols="60"></textarea>
+    </div>
+    <div>
+        <input type="submit" name="addTask" value="Add Tasks to the Task Queue"/>
+    </div>
+</form>
+<br>
+<form action="/pullServletWorker" method="post">
+    <input type="submit" name="leaseTask" value="Lease, Process, and Delete Tasks"/>
+</form>
+<br>
+<div>
+  <!--${message}-->
+</div>
+
+</body>
+</html>
