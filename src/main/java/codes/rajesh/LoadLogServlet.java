@@ -28,7 +28,8 @@ public class LoadLogServlet extends HttpServlet {
 
 		try (Logging logging = loggingOptions.getService()) {
 
-		  String logFilter = "logName=projects/" + loggingOptions.getProjectId() + "/logs/" + logName;
+		  String logFilter = "logName=projects/" + loggingOptions.getProjectId() + "/logs/appengine.googleapis.com%2Frequest_log AND severity = ERROR" ;
+		  out.println(logFilter);
 
 		  
 		  Page<LogEntry> entries = logging.listLogEntries(

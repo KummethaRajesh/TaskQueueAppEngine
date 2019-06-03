@@ -19,7 +19,7 @@ public class LogDataServlet extends HttpServlet {
 	public void service(HttpServletRequest request, HttpServletResponse response) {
 		
 		final Logger logger = Logger.getLogger(LogDataServlet.class.getName());
-		logger.info("I am info ");
+		logger.info("Information provided by ICC");
 		logger.severe("I am severe ");
 
 	}
