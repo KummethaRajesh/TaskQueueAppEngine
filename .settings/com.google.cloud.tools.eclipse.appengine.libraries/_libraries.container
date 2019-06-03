@@ -1,5 +1,9 @@
 [
+  "objectify",
   "appengine-endpoints",
   "appengine-api",
-  "objectify"
+  "stackdrivererrorreporting",
+  "stackdriverlogging",
+  "stackdrivermonitoring",
+  "stackdrivertrace"
 ]

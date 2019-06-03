@@ -6,4 +6,4 @@ project.bucket=
 project.id=task-queue-app
 project.previousVersion.stop=true
 project.promote=true
-project.version=pre-alpha-1
+project.version=pre-alpha-3
